@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+  background-color: hsl(252, 81%, 33%);
+  color: white;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: rgb(232, 230, 238);
+  color: black;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Estilos para los formularios */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+.create,
+.cancel {
+  background-color: #279cca;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.create:hover,
+.cancel:hover {
+  background-color: #227a9c;
+}
+
+/* Estilos para el listado de encuestas */
+.encuesta-item-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.3s;
+  margin: 10px 10px;
+  color: black;
+}
+
+
+.encuesta-item-container a {
+  color: black;
+}
+
+
+.encuesta-item-container:hover {
+  transform: translateY(-5px);
+  background-color: #96a39d;
+}
+
+.encuesta-item-container a:hover {
+  color: white;
+}
+
+.encuesta-item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.encuesta-item p {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.new-survey {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  color: black;
+}
+
+.back {
+  color: black;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button-container button {
+  margin-left: 10px;
+}
+
+.menu-title {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  flex-grow: 1;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.sent-survey {
+  background-color: #16df2d;
+  color: black;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  right: 20px;
+}
+
+.sent-survey:hover {
+  background-color: #177a23;
+  color: white;
+}
+
+.opcion-container {
+  margin: 10px 0;
+}
+
+.opcion-label {
+  display: flex;
+  align-items: center;
+}
+
+.opcion-label input {
+  margin-right: 5px;
+}
+
+.see-survey {
+  color: black;
+}
+
+/* Estilo para los botones de agregar pregunta y agregar opción */
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}

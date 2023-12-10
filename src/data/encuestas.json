@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "titulo": "Encuesta de Satisfacción del Cliente",
+    "descripcion": "Agradecemos tus comentarios para mejorar nuestros servicios.",
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Cómo calificarías la calidad de nuestros productos/servicios?",
+        "opciones": [
+          { "id": 1, "texto": "Muy Satisfecho" },
+          { "id": 2, "texto": "Satisfecho" },
+          { "id": 3, "texto": "Neutral" },
+          { "id": 4, "texto": "Insatisfecho" },
+          { "id": 5, "texto": "Muy Insatisfecho" }
+        ]
+      },
+      {
+        "id": 2,
+        "pregunta": "¿Cómo calificarías la amabilidad de nuestro personal?",
+        "opciones": [
+          { "id": 6, "texto": "Muy Satisfecho" },
+          { "id": 7, "texto": "Satisfecho" },
+          { "id": 8, "texto": "Neutral" },
+          { "id": 9, "texto": "Insatisfecho" },
+          { "id": 10, "texto": "Muy Insatisfecho" }
+        ]
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Estás satisfecho con los tiempos de entrega?",
+        "opciones": [
+          { "id": 11, "texto": "Muy Satisfecho" },
+          { "id": 12, "texto": "Satisfecho" },
+          { "id": 13, "texto": "Neutral" },
+          { "id": 14, "texto": "Insatisfecho" },
+          { "id": 15, "texto": "Muy Insatisfecho" }
+        ]
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Recomendarías nuestros productos/servicios a otros?",
+        "opciones": [
+          { "id": 16, "texto": "Definitivamente Sí" },
+          { "id": 17, "texto": "Probablemente Sí" },
+          { "id": 18, "texto": "No Estoy Seguro" },
+          { "id": 19, "texto": "Probablemente No" },
+          { "id": 20, "texto": "Definitivamente No" }
+        ]
+      }
+    ]
+  }
+]
